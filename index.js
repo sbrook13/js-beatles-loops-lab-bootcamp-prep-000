@@ -9,11 +9,11 @@ function theBeatlesPlay(a,b){
   }
   return beatles
 }
- let i=1
+ let i=0
  var allFacts = []
  function johnLennonFacts(facts){
    while(i<facts.length){ 
-     var newFact = `${facts[i-1]}!!!`
+     var newFact = `${facts[i]}!!!`
      allFacts.push(newFact)
      i++
    }
@@ -21,3 +21,11 @@ function theBeatlesPlay(a,b){
 }
   
   
+function iLoveTheBeatles(n){
+  var newArr = []
+  do{
+    newArr.push("I love the Beatles!")
+    n-=1
+  }while(n<15)
+  return newArr
+}
