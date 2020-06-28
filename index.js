@@ -21,11 +21,3 @@ function theBeatlesPlay(a,b){
    return allFacts
 }
  
-  
-function iLoveTheBeatles(n){
-  var newArr = []
-}
-  do{
-    newArr.push("I love the Beatles!");
-  } while (n<15) ;
-
