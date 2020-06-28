@@ -23,9 +23,9 @@ function theBeatlesPlay(a,b){
   
 function iLoveTheBeatles(n){
   var newArr = []
-  do{
-    newArr.push("I love the Beatles!")
-    n-=1
-  }while(n<15)
   return newArr
+}
+do{
+    newArr.push("I love the Beatles!")
+  }while(n<15);
 }
