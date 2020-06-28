@@ -10,6 +10,14 @@ function theBeatlesPlay(a,b){
   return beatles
 }
  let i=0
+ function johnLennonFacts(facts){
+   while(i<facts.length){ 
+     newFact = `${facts[i]}!!!`
+     facts.splice(i,1,[newFact])
+     i++
+   }
+   return facts
+}
  var allFacts = []
  function johnLennonFacts(facts){
    while(i<facts.length){ 
