@@ -9,12 +9,11 @@ function theBeatlesPlay(a,b){
   }
   return beatles
 }
- let i=0
- 
+ let i=1
+ var allFacts = []
  function johnLennonFacts(facts){
-   var allFacts = []
    while(i<facts.length){ 
-     var newFact = `${facts[i]}!!!`
+     var newFact = `${facts[i-1]}!!!`
      allFacts.push(newFact)
      i++
    }
